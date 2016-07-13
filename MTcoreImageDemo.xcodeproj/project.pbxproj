@@ -7,14 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AA05CF4B74F71824601A1D8F /* libPods-MTcoreImageDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 162338435D02C922AF6EA116 /* libPods-MTcoreImageDemo.a */; };
+		CB3D1ABF1D2CF66D0025113F /* imageFilterCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CB3D1ABD1D2CF66D0025113F /* imageFilterCell.m */; };
+		CB3D1AC01D2CF66D0025113F /* imageFilterCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB3D1ABE1D2CF66D0025113F /* imageFilterCell.xib */; };
+		CB3D1AD41D2F84AD0025113F /* editViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB3D1AD31D2F84AD0025113F /* editViewController.m */; };
+		CB54F4151D33463C0000AEE4 /* image.png in Resources */ = {isa = PBXBuildFile; fileRef = CB54F4141D33463C0000AEE4 /* image.png */; };
 		CBFA49501D2B442F0056C850 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CBFA494F1D2B442F0056C850 /* main.m */; };
 		CBFA49531D2B442F0056C850 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CBFA49521D2B442F0056C850 /* AppDelegate.m */; };
-		CBFA49561D2B442F0056C850 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBFA49551D2B442F0056C850 /* ViewController.m */; };
+		CBFA49561D2B442F0056C850 /* homeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBFA49551D2B442F0056C850 /* homeViewController.m */; };
 		CBFA49591D2B442F0056C850 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBFA49571D2B442F0056C850 /* Main.storyboard */; };
 		CBFA495B1D2B442F0056C850 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBFA495A1D2B442F0056C850 /* Assets.xcassets */; };
 		CBFA495E1D2B442F0056C850 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBFA495C1D2B442F0056C850 /* LaunchScreen.storyboard */; };
 		CBFA49691D2B44300056C850 /* MTcoreImageDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CBFA49681D2B44300056C850 /* MTcoreImageDemoTests.m */; };
 		CBFA49741D2B44300056C850 /* MTcoreImageDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CBFA49731D2B44300056C850 /* MTcoreImageDemoUITests.m */; };
+		CBFA49821D2B8D7A0056C850 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBFA49811D2B8D7A0056C850 /* AssetsLibrary.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,12 +41,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		162338435D02C922AF6EA116 /* libPods-MTcoreImageDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MTcoreImageDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		59F2F2DA8871CCDB2760A3E7 /* Pods-MTcoreImageDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MTcoreImageDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MTcoreImageDemo/Pods-MTcoreImageDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		87C36013BB7C7343570CCB20 /* Pods-MTcoreImageDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MTcoreImageDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-MTcoreImageDemo/Pods-MTcoreImageDemo.release.xcconfig"; sourceTree = "<group>"; };
+		CB3D1ABC1D2CF66D0025113F /* imageFilterCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = imageFilterCell.h; sourceTree = "<group>"; };
+		CB3D1ABD1D2CF66D0025113F /* imageFilterCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = imageFilterCell.m; sourceTree = "<group>"; };
+		CB3D1ABE1D2CF66D0025113F /* imageFilterCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = imageFilterCell.xib; sourceTree = "<group>"; };
+		CB3D1AD21D2F84AD0025113F /* editViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = editViewController.h; sourceTree = "<group>"; };
+		CB3D1AD31D2F84AD0025113F /* editViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = editViewController.m; sourceTree = "<group>"; };
+		CB54F4141D33463C0000AEE4 /* image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image.png; sourceTree = "<group>"; };
 		CBFA494B1D2B442F0056C850 /* MTcoreImageDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MTcoreImageDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBFA494F1D2B442F0056C850 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CBFA49511D2B442F0056C850 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CBFA49521D2B442F0056C850 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		CBFA49541D2B442F0056C850 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		CBFA49551D2B442F0056C850 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CBFA49541D2B442F0056C850 /* homeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = homeViewController.h; sourceTree = "<group>"; };
+		CBFA49551D2B442F0056C850 /* homeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = homeViewController.m; sourceTree = "<group>"; };
 		CBFA49581D2B442F0056C850 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CBFA495A1D2B442F0056C850 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CBFA495D1D2B442F0056C850 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +66,7 @@
 		CBFA496F1D2B44300056C850 /* MTcoreImageDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MTcoreImageDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBFA49731D2B44300056C850 /* MTcoreImageDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTcoreImageDemoUITests.m; sourceTree = "<group>"; };
 		CBFA49751D2B44300056C850 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBFA49811D2B8D7A0056C850 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +74,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CBFA49821D2B8D7A0056C850 /* AssetsLibrary.framework in Frameworks */,
+				AA05CF4B74F71824601A1D8F /* libPods-MTcoreImageDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,13 +96,93 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2F17ECB335E3AE857A67560E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				59F2F2DA8871CCDB2760A3E7 /* Pods-MTcoreImageDemo.debug.xcconfig */,
+				87C36013BB7C7343570CCB20 /* Pods-MTcoreImageDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6BFE8C80653C142F17FA125B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				162338435D02C922AF6EA116 /* libPods-MTcoreImageDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CB3D1AAD1D2C98990025113F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CBFA49541D2B442F0056C850 /* homeViewController.h */,
+				CBFA49551D2B442F0056C850 /* homeViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		CB3D1AAE1D2C98B90025113F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CBFA49571D2B442F0056C850 /* Main.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		CB3D1AAF1D2C98C00025113F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		CB3D1AD51D2F84B40025113F /* editView */ = {
+			isa = PBXGroup;
+			children = (
+				CB3D1AD81D2F84F00025113F /* Model */,
+				CB3D1AD71D2F84ED0025113F /* View */,
+				CB3D1AD61D2F84E70025113F /* Controller */,
+			);
+			name = editView;
+			sourceTree = "<group>";
+		};
+		CB3D1AD61D2F84E70025113F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CB3D1AD21D2F84AD0025113F /* editViewController.h */,
+				CB3D1AD31D2F84AD0025113F /* editViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		CB3D1AD71D2F84ED0025113F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CB3D1ABC1D2CF66D0025113F /* imageFilterCell.h */,
+				CB3D1ABD1D2CF66D0025113F /* imageFilterCell.m */,
+				CB3D1ABE1D2CF66D0025113F /* imageFilterCell.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		CB3D1AD81D2F84F00025113F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 		CBFA49421D2B442F0056C850 = {
 			isa = PBXGroup;
 			children = (
+				CBFA49811D2B8D7A0056C850 /* AssetsLibrary.framework */,
 				CBFA494D1D2B442F0056C850 /* MTcoreImageDemo */,
 				CBFA49671D2B44300056C850 /* MTcoreImageDemoTests */,
 				CBFA49721D2B44300056C850 /* MTcoreImageDemoUITests */,
 				CBFA494C1D2B442F0056C850 /* Products */,
+				2F17ECB335E3AE857A67560E /* Pods */,
+				6BFE8C80653C142F17FA125B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,12 +199,10 @@
 		CBFA494D1D2B442F0056C850 /* MTcoreImageDemo */ = {
 			isa = PBXGroup;
 			children = (
-				CBFA49511D2B442F0056C850 /* AppDelegate.h */,
-				CBFA49521D2B442F0056C850 /* AppDelegate.m */,
-				CBFA49541D2B442F0056C850 /* ViewController.h */,
-				CBFA49551D2B442F0056C850 /* ViewController.m */,
-				CBFA49571D2B442F0056C850 /* Main.storyboard */,
+				CB3D1AD51D2F84B40025113F /* editView */,
+				CBFA49831D2BA84D0056C850 /* homeView */,
 				CBFA495A1D2B442F0056C850 /* Assets.xcassets */,
+				CB54F4141D33463C0000AEE4 /* image.png */,
 				CBFA495C1D2B442F0056C850 /* LaunchScreen.storyboard */,
 				CBFA495F1D2B442F0056C850 /* Info.plist */,
 				CBFA494E1D2B442F0056C850 /* Supporting Files */,
@@ -117,6 +213,8 @@
 		CBFA494E1D2B442F0056C850 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				CBFA49511D2B442F0056C850 /* AppDelegate.h */,
+				CBFA49521D2B442F0056C850 /* AppDelegate.m */,
 				CBFA494F1D2B442F0056C850 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -140,6 +238,16 @@
 			path = MTcoreImageDemoUITests;
 			sourceTree = "<group>";
 		};
+		CBFA49831D2BA84D0056C850 /* homeView */ = {
+			isa = PBXGroup;
+			children = (
+				CB3D1AAF1D2C98C00025113F /* Model */,
+				CB3D1AAE1D2C98B90025113F /* View */,
+				CB3D1AAD1D2C98990025113F /* Controller */,
+			);
+			name = homeView;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +255,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CBFA49781D2B44300056C850 /* Build configuration list for PBXNativeTarget "MTcoreImageDemo" */;
 			buildPhases = (
+				D612BF9F4F5450F053958BCA /* [CP] Check Pods Manifest.lock */,
 				CBFA49471D2B442F0056C850 /* Sources */,
 				CBFA49481D2B442F0056C850 /* Frameworks */,
 				CBFA49491D2B442F0056C850 /* Resources */,
+				2D99E28CE766B313CC789F17 /* [CP] Embed Pods Frameworks */,
+				4463B7E4EAEFAE24B55AD598 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -207,6 +318,7 @@
 				TargetAttributes = {
 					CBFA494A1D2B442F0056C850 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = R2KB5FWHWD;
 					};
 					CBFA49631D2B44300056C850 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -244,8 +356,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				CBFA495E1D2B442F0056C850 /* LaunchScreen.storyboard in Resources */,
+				CB3D1AC01D2CF66D0025113F /* imageFilterCell.xib in Resources */,
 				CBFA495B1D2B442F0056C850 /* Assets.xcassets in Resources */,
 				CBFA49591D2B442F0056C850 /* Main.storyboard in Resources */,
+				CB54F4151D33463C0000AEE4 /* image.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,13 +379,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2D99E28CE766B313CC789F17 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MTcoreImageDemo/Pods-MTcoreImageDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4463B7E4EAEFAE24B55AD598 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MTcoreImageDemo/Pods-MTcoreImageDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D612BF9F4F5450F053958BCA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CBFA49471D2B442F0056C850 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CBFA49561D2B442F0056C850 /* ViewController.m in Sources */,
+				CBFA49561D2B442F0056C850 /* homeViewController.m in Sources */,
+				CB3D1ABF1D2CF66D0025113F /* imageFilterCell.m in Sources */,
 				CBFA49531D2B442F0056C850 /* AppDelegate.m in Sources */,
+				CB3D1AD41D2F84AD0025113F /* editViewController.m in Sources */,
 				CBFA49501D2B442F0056C850 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -413,8 +577,10 @@
 		};
 		CBFA49791D2B44300056C850 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59F2F2DA8871CCDB2760A3E7 /* Pods-MTcoreImageDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = MTcoreImageDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = yangqi.MTcoreImageDemo;
@@ -424,8 +590,10 @@
 		};
 		CBFA497A1D2B44300056C850 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87C36013BB7C7343570CCB20 /* Pods-MTcoreImageDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = MTcoreImageDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = yangqi.MTcoreImageDemo;
@@ -498,6 +666,7 @@
 				CBFA497A1D2B44300056C850 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CBFA497B1D2B44300056C850 /* Build configuration list for PBXNativeTarget "MTcoreImageDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +675,7 @@
 				CBFA497D1D2B44300056C850 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CBFA497E1D2B44300056C850 /* Build configuration list for PBXNativeTarget "MTcoreImageDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +684,7 @@
 				CBFA49801D2B44300056C850 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
